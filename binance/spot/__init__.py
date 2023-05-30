@@ -269,6 +269,8 @@ class Spot(API):
 
     # CONVERT
     from binance.spot._convert import convert_trade_history
+    from binance.spot._convert import convert_get_quote
+    from binance.spot._convert import convert_accept_quote
 
     # REBATE
     from binance.spot._rebate import rebate_spot_history
